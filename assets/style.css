@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,900&family=Roboto:ital,wght@1,900&display=swap');
+
+/* *-css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *-css */
+
+
+/* body-input-textarea-css */
+body,
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* body-input-textarea-css */
+
+
+/* container-css */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #E2E2E2;
+    padding: 2rem;
+    position: relative;
+}
+
+/* container-css */
+
+
+/* form-css */
+.form {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+    z-index: 1000;
+    border-radius: 20px;
+    box-shadow: 0 20px 20px 10px rgba(0, 0.2, 0, 0.5);
+}
+
+/* form-css */
+
+
+/* info-contact-css */
+.info-contact {
+    background-color: rgb(172, 201, 172);
+}
+
+/* info-contact-css */
+
+
+/* form-contact-css */
+.form-contact {
+    position: relative;
+    background-color: rgb(132, 164, 186);
+}
+
+.form-contact:before {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    content: "";
+    background-color: rgb(132, 164, 186);
+    transform: rotate(45deg);
+    top: 240px;
+    left: -13px;
+
+}
+
+/* form-contact-css */
+
+
+/* circle-css */
+.circle {
+    position: absolute;
+    background: linear-gradient(135deg, transparent 30%, #E2E2E2);
+    border-radius: 50%;
+}
+
+/* circle-css */
+
+
+/* once-css */
+.once {
+    width: 120px;
+    height: 120px;
+    top: 200px;
+    right: -60px;
+}
+
+/* once-css */
+
+
+/* secound-css */
+.secound {
+    width: 90px;
+    height: 90px;
+    top: -20px;
+    right: 30px;
+}
+
+/* secound-css */
+
+
+/* third-css */
+.third {
+    width: 90px;
+    height: 90px;
+    top: 440px;
+    right: 140px;
+}
+
+/* third-css */
+
+
+/* form-css */
+form {
+    position: relative;
+    overflow: hidden;
+    padding: 2.5rem 2.5rem;
+}
+
+/* form-css */
+
+
+
+/* title-css */
+.title {
+    line-height: 2;
+    margin-bottom: 0.6rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: azure;
+}
+
+/* title-css */
+
+
+/* container-input-css */
+.container-input {
+    position: relative;
+    margin: 1rem 0;
+}
+
+/* container-input-css */
+
+
+/* label-css */
+label{
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    padding: 0 0.5rem;
+    color: #fafafa;
+    font-size: 0.9rem;
+    font-weight: 500;
+    pointer-events: none;
+    z-index: 1000;
+    transition: 0,4s;
+    transform: translateY(-50%);
+}
+/* label-css */
+
+/* one-input */
+.one-input{
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.4px;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid #fafafa;
+    background: none;
+    padding: 0.5rem 1.3rem;
+    transition: 0.4s;
+}
+/* one-input */
+
+
+/* text-area-css */
+textarea.input{
+    min-height: 150px;
+    padding: 0.7rem 1.2rem;
+    border-radius: 20px;
+    resize: none;
+    overflow-y: auto ;
+}
+/* text-area-css */
+
+
+/* txt-area-css */
+txt-area label{
+    top: 1rem;
+    transform: translateY(0);
+}
+/* txt-area-css */
+
+
+
+/* Btn-css */
+.Btn{
+    background-color: #fff;
+    border: 2px solid #fafafa;
+    padding: 10px 20px;
+    color: rgb(132, 164, 186);
+    line-height: 1;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 0;
+    transition: 0.4s;
+}
+
+.Btn:hover{
+    background-color: transparent;
+    color: #fff;
+}
+/* Btn-css */
