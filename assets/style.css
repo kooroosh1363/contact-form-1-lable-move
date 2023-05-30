@@ -40,7 +40,6 @@ textarea {
 .form {
     width: 100%;
     max-width: 800px;
-    height: 500px;
     background-color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -230,3 +229,57 @@ txt-area label{
     color: #fff;
 }
 /* Btn-css */
+
+
+
+
+/* span-css */
+.container-input span{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    padding: 0 0.5rem;
+    color: transparent;
+    pointer-events: none;
+    z-index: 500;
+
+}
+
+.container-input span:before,
+.container-input span:after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    opacity: 0;
+    transition: 0.3s;
+    height: 5px;
+    background-color: rgb(132, 164, 186);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container-input span:before{
+    left: 50%;
+}
+
+.container-input span:after{
+    right: 50%;
+}
+
+
+.container-input.focus label{
+    top: 0;
+    transform: translateY(-50%);
+    left: 25px;
+    font-size: 15px;
+}
+
+.container-input.focus span:before,
+.container-input.focus span:after{
+    width: 50%;
+    opacity: 1;
+}
+
+/* span-css */
