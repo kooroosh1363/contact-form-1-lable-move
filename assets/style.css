@@ -397,3 +397,25 @@ txt-area label{
     left: calc(50% - 180px);
 }
 /* cir-big-css */
+
+
+@media (max-width: 850px){
+    .from{
+        grid-template-columns: 1fr;
+    }
+
+    .info-contact:before{
+        bottom: initial;
+        top: -75px;
+        right: 65px;
+        transform: scale(0.95);
+    }
+
+    .info-contact:before{
+        top: -13px;
+        left: initial;
+        right: 70px;
+    }
+} 
+    
+
