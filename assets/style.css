@@ -283,3 +283,30 @@ txt-area label{
 }
 
 /* span-css */
+
+
+/* img-i-css */
+.img-i{
+    width: 30px;
+}
+/* img-i-css */
+
+
+/* info-contact-css */
+.info-contact{
+    padding: 2.4rem 2.4rem;
+    position: relative;
+}
+
+.info-contact .title{
+    color: #2e83de;
+}
+
+.text{
+    color: #514f4f;
+}
+
+/* info-contact-css */
+
+
+
