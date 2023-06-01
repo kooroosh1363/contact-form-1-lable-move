@@ -285,12 +285,6 @@ txt-area label{
 /* span-css */
 
 
-/* img-i-css */
-.img-i{
-    width: 30px;
-}
-/* img-i-css */
-
 
 /* info-contact-css */
 .info-contact{
@@ -309,4 +303,21 @@ txt-area label{
 /* info-contact-css */
 
 
+/* info-1 */
+.info-1{
+    display: flex;
+    align-items: center;
+    color: #555;
+    margin: 0.7rem 0.2rem;
+    font-size: 1.2rem;
+}
+/* info-1 */
+
+
+/* img-i-css */
+.img-i{
+    width: 30px;
+    margin-right: 0.9rem;
+}
+/* img-i-css */
 
